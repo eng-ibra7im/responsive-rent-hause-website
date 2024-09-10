@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>House Rent Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav-conatiner">
+        <!-- logo -->
+        <a href="./index.html" class="logo">
+          <i class="bx bx-home"></i>
+          R STATE
+        </a>
+
+        <div class="btn">
+          <a href="./login.html">Log in</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="input">
+        <div class="signup-info">
+          <h1>
+            Wellcome , Let's get <br />
+            started
+          </h1>
+          <p>Already have account Log in</p>
+        </div>
+        <form action="" method="get" class="form">
+          <div class="mail-signup">
+            <label for="">FName </label>
+            <input type="text" required placeholder=" Your Name" id="fname"/>
+            <label for="">LName </label>
+            <input type="text" required placeholder=" Your Name" id="lname"/>
+            <label for="">Enter your email address </label>
+            <input type="email" required placeholder=" yourmail@gmail.com" id="email" />
+            <!-- <label for=""> Phone </label>
+            <input type="text" required placeholder=" Enter your Number" /> -->
+            <label for="">Enter your Password </label>
+            <input type="password" required placeholder=" At least 8" id="password"/>
+            <label for=""> confirm Password </label>
+            <input type="password" required placeholder=" At least 8" id="conpassword"/>
+          </div>
+          <div class="button">
+            <button type="submit" class="btn1">sign up </button>
+            <p>
+              <a href="#"> Already have account ? </a>
+            </p>
+            <a href="./login.html" class="btn1">Log in</a>
+          </div>
+        </form>
+      </div>
+      <div class="img-sign">
+        <img src="../imgs/undraw_Sign_in_re_o58h.png" alt="" />
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.3/axios.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
